@@ -59,7 +59,7 @@ With the environment file set up, you can move on to using Docker:
 export USERID=$UID && docker-compose build && docker-compose run --name lens contracts-env bash
 ```
 
-If you need additional terminals:
+//If you need additional terminals:
 
 ```bash
 docker exec -it lens bash
